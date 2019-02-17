@@ -1,4 +1,4 @@
-def calculate_bonus(current_purchase, previous_purchases):
+def bonus(current_purchase, previous_purchases):
     blue_card_bonus = 50 # бонусов за каждые полные 1000 руб по синей карте
     silver_card_bonus = 70 # бонусов за каждые полные 1000 руб по серебряной карте
     gold_card_bonus = 100 # бонусов за каждые полные 1000 руб по золотой карте
