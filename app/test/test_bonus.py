@@ -13,7 +13,7 @@ def test_bonus_blue_card():
     assert 50 == result
 
 
-def test_bouns_silver_card():
+def test_bonus_silver_card():
     result = bonus(2599, [9000, 8990, 15499])
 
     assert 140 == result
