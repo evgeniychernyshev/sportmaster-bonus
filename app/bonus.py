@@ -1,12 +1,11 @@
 def bonus(current_purchase, previous_purchases):
-    blue_card_bonus = 50  # бонусов за каждые полные 1000 руб по синей карте
-    silver_card_bonus = 70  # бонусов за каждые полные 1000 руб по серебряной карте
-    gold_card_bonus = 100  # бонусов за каждые полные 1000 руб по золотой карте
-    total_sum = 0  # сумма всех предыдущих покупок
-    bonus_count = 0  # кол-во бонусов с текущей покупки
-    min_purchase_sum = 1_000  # минимальная сумма покупки, на которую начисляются бонусы
+    blue_card_bonus = 50
+    silver_card_bonus = 70
+    gold_card_bonus = 100
+    total_sum = 0
+    bonus_count = 0
+    min_purchase_sum = 1_000
 
-    # количество полных тысяч в сумме текущей покупки
     full_thousand_count = current_purchase // min_purchase_sum
 
     for purchase in previous_purchases:
